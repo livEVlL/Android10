@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    // 偏好設定 => save
+    // 偏好設定 => save.
     public void test1(View v){
         editor.putInt("stage", 3);
         editor.putString("user", "Brad");
